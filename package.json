@@ -1,0 +1,65 @@
+{
+  "homepage": "https://MichaelHarr.github.io/React-Automata-Simulator",
+  "name": "React-Automata-Simulator",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@juggle/resize-observer": "^3.4.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@tisoap/react-flow-smart-edge": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.6",
+    "react-flow-renderer": "^10.3.17",
+    "react-router-dom": "^6.19.0",
+    "react-scripts": "5.0.1",
+    "reactflow": "^11.10.1",
+    "styled-components": "^6.1.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.23.3",
+    "babel-jest": "^29.7.0",
+    "gh-pages": "^6.1.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.5.1",
+    "react-test-renderer": "^18.2.0",
+    "tailwindcss": "^3.4.1"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    }
+  }
+}
